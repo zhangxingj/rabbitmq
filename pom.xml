@@ -3,4 +3,11 @@
   <groupId>com.cloudcc.rabbitmq</groupId>
   <artifactId>rabbitmq</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+    <groupId>com.rabbitmq</groupId>
+    <artifactId>amqp-client</artifactId>
+    <version>5.5.0</version>
+</dependency>
+  </dependencies>
 </project>
