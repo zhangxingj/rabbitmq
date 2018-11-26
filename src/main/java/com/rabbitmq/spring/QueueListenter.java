@@ -10,7 +10,7 @@ public class QueueListenter implements MessageListener {
 
   public void onMessage(Message msg) {
       try{
-          System.out.print(msg.toString());
+          System.out.print("QueueListenter:message:"+msg.toString());
       }catch(Exception e){
           e.printStackTrace();
       }
